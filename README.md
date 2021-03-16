@@ -7,4 +7,4 @@ Weather forecast
 https://andrewfriedman20.github.io/Homework_06_ALF/
 https://github.com/andrewfriedman20/Homework_06_ALF
 
-![The user clicks to select a timeslot, enters the event name and clicks the disk "save" button to the right.](https://github.com/andrewfriedman20/homework_06_ALF/blob/039fae0de428bcaccaffa4d039e31cd21b4e8da9/workdaycalendar.alf.jpg)
+![The user enters city name in the upper left.](https://github.com/andrewfriedman20/Homework_06_ALF/blob/54e47f4f122cebc0756f9d01bb12a957cfbc4cb3/Screencap.png)
