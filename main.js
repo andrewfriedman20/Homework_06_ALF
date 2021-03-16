@@ -25,11 +25,14 @@ $(document).ready(function () {
             datatype: "json",
             success: function(data) { 
                 console.log(data);
+                $("tw-city_name").text(data["name"])
             } 
         })    
     }
 
 });
 
+
+ 
 
  
