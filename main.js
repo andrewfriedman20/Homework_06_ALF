@@ -3,7 +3,7 @@ $(document).ready(function () {
         let city = $("#search-value").val(); 
         searchCityWeather(city);
 
-        $("#city").val("");
+        $("#search-value").val("");
 
         searchCityWeather(city);
     });
