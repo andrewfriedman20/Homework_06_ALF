@@ -3,7 +3,7 @@ $(document).ready(function () {
         let city = $("#search-value").val(); 
         searchCityWeather(city);
 
-        $("#search-value").val("");
+        $("#city").val("");
 
         searchCityWeather(city);
     });
@@ -21,18 +21,18 @@ $(document).ready(function () {
     function searchCityWeather(city) {
         $.ajax({
             type: "GET",
-            url: `http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${API_KEY}&units=imperial`,
+            url: `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${API_KEY}&units=imperial`,
             datatype: "json",
             success: function(data) { 
                 console.log(data);
-                $("tw-city_name").text(data["name"])
+                $("#tw-city_name").text(data["name"]);
+                // $("#tw-temp").text(data["main"]["temp"]);
+                // $("#tw-humidity").text(data["main"]["humidity"]);
             } 
         })    
     }
 
 });
 
-
- 
 
  
